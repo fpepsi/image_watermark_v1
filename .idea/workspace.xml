@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4757c23d-9836-4879-8311-6d150b9971db" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/image_watermark_v2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_screen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edit_screen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file_save.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AnkhSanctuary-PVK0B.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Apple Symbols.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AppleSDGothicNeo.ttc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AquaKana.ttc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/ArabicUIDisplay.ttc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/ArabicUIText.ttc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AutumnFlowers-9YVZK.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Blacknorthdemo-mLE25.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/CoffeeHealing-1GrKe.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/CoffeeHealingItalic-RpP6o.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/CreamySugar-gxnGR.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/CrotahFreeVersionItalic-z8Ev3.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Dangernight-vnZ5y.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/DripOctober-vm0JA.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/FlorisaPersonalUse-nRm84.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Helvetica.ttc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/HelveticaNeue.ttc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Katerlin-51zjB.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Matcha-EaLge.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Nestocopper42-1GVw2.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/NightPumpkind-1GpGv.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/NightPumpkind-nRORO.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/PumpkinTypeHalloween-8MVEg.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/SellenaBrush-x3JyK.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Symbol.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Times.ttc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image_edit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image_object.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pexels-belle-co-99483-847393.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pexels-monique-laats-230726-733090.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pexels-pixabay-219906.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pexels-pixabay-247376.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pexels-pixabay-326900.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pexels-pixabay-45853.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pexels-pixabay-47547.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pexels-pixabay-53125.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pexels-richard-verbeek-177679-572861.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_screen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mouse_scroll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screen_init_image.jpg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2ocymiCT3o6C4klK248nzElsIRl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/fabiobethlem/Library/Mobile Documents/com~apple~CloudDocs/Documents/Work/Courses/Udemy_100_Days_Python/image_watermark_v2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fonts" />
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4757c23d-9836-4879-8311-6d150b9971db" name="Changes" comment="" />
+      <created>1731183319135</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731183319135</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
