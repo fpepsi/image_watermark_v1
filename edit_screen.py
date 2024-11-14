@@ -1,3 +1,4 @@
+import os
 from tkinter import Frame, Canvas, Button
 from PIL import Image, ImageTk
 import base_screen as bs
@@ -242,11 +243,12 @@ class EditScreen(bs.BaseScreen):
 
 
     def save_edited(self):
-        '''controls edited image file generation'''
+        """Controls edited image file generation."""
         dict_key = self.controller.key_list[self.image_index]
         filename = self.controller.selected_img[dict_key].name
         save_box = SaveImageDialog(root=self.left_button_frame, filename=filename, initial_dir='images_wm/')
         save_box.open_save_dialog()
+
         # Wait until the dialog is closed and a file path is set
         self.left_button_frame.wait_window(save_box.dialog)
 
@@ -254,8 +256,15 @@ class EditScreen(bs.BaseScreen):
         file_path = save_box.file_name.get()
         if file_path:
             try:
+                # Prepare the image for saving based on the selected extension
+                selected_extension = os.path.splitext(file_path)[-1].lower()
+                edited_image = save_box.prepare_image_for_saving(
+                    self.controller.selected_img[dict_key].edited_copy,
+                    selected_extension
+                )
+
                 # Save the image with the chosen extension
-                self.controller.selected_img[dict_key].edited_copy.save(file_path)
+                edited_image.save(file_path)
                 print(f"Image saved successfully at: {file_path}")
             except Exception as e:
                 print(f"Failed to save image: {e}")

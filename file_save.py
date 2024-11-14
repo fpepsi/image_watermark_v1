@@ -1,6 +1,7 @@
 from tkinter import Tk, Toplevel, Label, Button, Listbox, Scrollbar, filedialog, END, StringVar, Entry
 from PIL import Image
 
+
 class SaveImageDialog:
     def __init__(self, root, filename, initial_dir):
         self.root = root
@@ -24,9 +25,9 @@ class SaveImageDialog:
         self.extension_listbox.pack(expand=True, fill="both", padx=10)
         scrollbar.config(command=self.extension_listbox.yview)
 
-        # Populate Listbox with supported file extensions from PIL
-        supported_formats = Image.registered_extensions()  # Get all registered extensions
-        for ext in supported_formats.keys():
+        # Populate Listbox with supported file extensions from PIL, sorted alphabetically
+        supported_formats = sorted(Image.registered_extensions().keys())
+        for ext in supported_formats:
             self.extension_listbox.insert(END, ext)
 
         # Bind selection event to update the chosen extension
@@ -49,6 +50,10 @@ class SaveImageDialog:
 
     def save_file(self):
         """Open file dialog to select path, then save the file with the chosen name and extension."""
+        # Ensure the file name includes the selected extension
+        if not self.file_name.get().lower().endswith(self.extension.get()):
+            self.file_name.set(f"{self.file_name.get()}{self.extension.get()}")
+
         file_path = filedialog.asksaveasfilename(
             initialfile=self.file_name.get(),
             initialdir=self.file_dir,
@@ -57,23 +62,15 @@ class SaveImageDialog:
         )
 
         if file_path:
-            # Ensure the file name includes the selected extension
-            if not file_path.lower().endswith(self.extension.get()):
-                file_path += self.extension.get()
-
             # Update the entry box with the chosen file path
             self.file_name.set(file_path)
 
             # Close the dialog window
             self.dialog.destroy()
 
-
-# Example usage
-if __name__ == "__main__":
-    root = Tk()
-    root.withdraw()  # Hide the root window
-
-    save_dialog = SaveImageDialog(root, 'file_name', '/new_dir')
-    save_dialog.open_save_dialog()
-
-    root.mainloop()
+    @staticmethod
+    def prepare_image_for_saving(image: Image.Image, extension: str) -> Image.Image:
+        """Convert image mode to a compatible one based on the extension."""
+        if extension in [".jpg", ".jpeg"] and image.mode == "RGBA":
+            return image.convert("RGB")
+        return image

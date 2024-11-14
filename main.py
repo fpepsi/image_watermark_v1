@@ -9,7 +9,7 @@ from tkinter.messagebox import askyesno
 # TODO 1:  Add a module to insert a logo
 # TODO 2: Add a module to fill an image with copyright text
 
-# creates 'images', 'images_wm' folders if non-existent
+# creates 'images', 'images_wm' folders if non-existents
 if not os.path.isdir('images'):
   os.mkdir('images')
 
